@@ -1,0 +1,44 @@
+.aviso-login {
+  background-color: var(--bg-input);
+  border: 1px solid var(--primary);
+  color: var(--text-main);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.separador {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 1rem;
+}
+.separador::before, .separador::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid var(--border);
+}
+.separador span {
+  padding: 0 1rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cargando {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-muted);
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid var(--bg-input);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #7B52AB;
+  --primary-hover: #593685;
+  --bg-app: #313338;
+  --bg-card: #2B2D31;
+  --bg-input: #1E1F22;
+  --text-main: #F2F3F5;
+  --text-muted: #B5BAC1;
+  --border: #1E1F22;
+  --danger: #DA373C;
+}
+
+body {
+  font-family: 'gg sans', 'Segoe UI', Helvetica, Arial, sans-serif;
+  background-color: var(--bg-app);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+.main-content {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--bg-app);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1A1B1E;
+  border-radius: 4px;
+}
