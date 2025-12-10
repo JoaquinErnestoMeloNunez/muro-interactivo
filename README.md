@@ -1,16 +1,23 @@
-# React + Vite
+# Proyecto final de Programacion Web: Muro Interactivo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Viendo el muro como usuario no logeado
+<img width="1599" height="766" alt="image" src="https://github.com/user-attachments/assets/a7552804-a22f-4600-9e74-2d28c5eed2be" />
+<img width="1599" height="767" alt="image" src="https://github.com/user-attachments/assets/fb07b0da-31f6-4cbd-8ab0-4d28f0695940" />
 
-Currently, two official plugins are available:
+Probando con usuario no existente
+<img width="1599" height="762" alt="image" src="https://github.com/user-attachments/assets/64bf083d-ebf9-4252-9b6d-391decf3de40" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Registrando usuario:
+<img width="1599" height="750" alt="image" src="https://github.com/user-attachments/assets/3baa76e9-59e0-4165-b88d-54191e0b2aa3" />
 
-## React Compiler
+Redactando mensaje
+<img width="1599" height="773" alt="image" src="https://github.com/user-attachments/assets/bd8183f3-1136-4350-af5d-d16578967f24" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Publicando mensaje
+<img width="1599" height="782" alt="image" src="https://github.com/user-attachments/assets/4c2a87c6-5a1e-40d7-b0f9-26a7ac55359e" />
 
-## Expanding the ESLint configuration
+Dirigiendo a perfil de usuario
+<img width="1599" height="772" alt="image" src="https://github.com/user-attachments/assets/9073839c-1a62-4c72-987a-7179eb123597" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Cambiando datos
+<img width="1599" height="755" alt="image" src="https://github.com/user-attachments/assets/29b7d6f5-d174-4c59-9603-fa8822b698de" />
